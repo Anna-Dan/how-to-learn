@@ -9,9 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.centered-block {
-  margin: auto;
-}  
 
 .header {
   height: 100vh;
@@ -23,17 +20,17 @@
 
   /* выше установили ограничения для секции */
 }
-.logo{
-  background-image: url(../images/logo_place_header.svg);
-  width: 183px;
-  height: 32px;
+.logo{  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  align-self: center;
+  
 }
 
 .logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -300,3 +297,83 @@
   right: -210px;
 }
 
+.footer{
+  min-height: 350px;
+  background-color:  #1f1f1f;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer__columns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 60px auto 40px;
+  
+}
+
+.footer__column_content_copyright{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  
+
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+ 
+}
+.footer__author {
+  margin: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+
+}
+
+.footer__column-links{
+  margin: 20px auto 16px;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.footer__social-icon{
+  margin: 20px auto 16px;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+ 
+}
+
+.footer__column-link{
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.footer__icon{
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+ 
+}
