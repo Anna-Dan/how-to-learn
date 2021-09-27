@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
-
 /*Шапка*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -29,7 +28,6 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
-
 /*Цифры и факты*/
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -38,7 +36,17 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heding/table__heding.css);
 @import url(../blocks/table/__text/table__text.css);
-
+/*Салман Хан*/
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__autor/khan__autor.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-sublime/khan__quote-author-sublime.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 /*Кауфман*/
 @import url(../blocks/kaufman/kaufman.css);
@@ -53,10 +61,7 @@
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/resources/resources.css);
 
-
 @import url(../blocks/video/video.css);
-
-
 
 /*Фейнман*/
 @import url(../blocks/feynman/feynman.css);
@@ -75,5 +80,3 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 /*Анимация вращение*/
 @import url(../blocks/rotation/rotation.css);
-
-
