@@ -12,11 +12,11 @@
 
 – BEM methodology
 
-- CSS
+– CSS
 
-- Анимация фигур
+– Анимация фигур
 
-- API YouTube
+– API YouTube
 
 ## Локальная сборка и запуск проекта
 
